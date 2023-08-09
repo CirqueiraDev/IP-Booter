@@ -12,3 +12,7 @@
   <h3>IO STRESSER</h3>
   In short, the attack itself aims to overwhelm the target with a large volume of requests in a way that causes slowness or unavailability of services.
 </div>
+
+<div align="center" style="display: inline_block">
+  <img height="110px" width="120px" src="https://orig00.deviantart.net/80ad/f/2017/038/8/2/missile__animated__by_hex_01-daya7ar.gif" />
+</div>
