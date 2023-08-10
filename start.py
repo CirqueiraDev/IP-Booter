@@ -68,5 +68,5 @@ def start():
                 pass
 
 if __name__ == '__main__':
-    print('\33]0;Kusty🐀,  starting tool...\a')
+    print('\33]0;Kusty🐀,  Starting tool...\a')
     start()
