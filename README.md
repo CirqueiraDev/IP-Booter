@@ -16,3 +16,15 @@
 <div align="center" style="display: inline_block">
   <img height="110px" width="120px" src="https://orig00.deviantart.net/80ad/f/2017/038/8/2/missile__animated__by_hex_01-daya7ar.gif" />
 </div>
+
+<div align="center">
+  <h1>👥 My social networks and contacts 👥</h1>
+  
+  [![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@cirqueiradev)
+  [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/cirqueira.7/)
+  [![Tiktok](	https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://tiktok.com/@cirqueiradev)
+</div>
+
+- 💻 My discord: **cirqueira**
+
+- 📫 My contact: **leonardoschiffner88@gmail.com**
