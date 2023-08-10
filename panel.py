@@ -4,8 +4,8 @@ from os import name, system
 from time import sleep
 from lib.textColor import textGen, text2Gen
 from lib.credits import scriptCredits
-import os
 import json
+import os
 
 global R,B,C,G,Y,Q
 R='\033[1;31m'; B='\033[1;34m'; C='\033[1;37m'; G='\033[1;32m'; Y='\033[1;33m'; Q='\033[1;36m'
