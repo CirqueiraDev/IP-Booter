@@ -1,0 +1,20 @@
+{
+    "POST": "/ajax/attack HTTP/2",
+    "Host": "freeddos.pw",
+    "Cookie": "unique_id=64ac71ecc0c09; __cf_bm=ojkiDir4hlQSVeCXtwD2SZkclkVOf94tp2U_CB6Icu8-1689022960-0-ATHzus24OhphmHs03Bqoa0jvZ0UEO4iI4WQG/09zEsfwyKjt7Dp2vv1dcziXjR3Qdw==",
+    "Content-Length": "57",
+    "Sec-Ch-Ua": "",
+    "Accept": "/",
+    "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+    "X-Requested-With": "XMLHttpRequest",
+    "Sec-Ch-Ua-Mobile": "?0",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.5735.199 Safari/537.36",
+    "Sec-Ch-Ua-Platform": "",
+    "Origin": "https://freeddos.pw",
+    "Sec-Fetch-Site": "same-origin",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Dest": "empty",
+    "Referer": "https://freeddos.pw/",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept-Language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
+}
