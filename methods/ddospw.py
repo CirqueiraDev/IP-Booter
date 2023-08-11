@@ -36,12 +36,12 @@ def attack_DNS_NTP_TCPMB():
         request = json.loads(request)
 
         if request['status'] == 'sucess':
-            msg = ''
+            msg=''
             for i in request:
                 msg += str('\n[ ' + G + str(i.upper()) + C + ' : ' + str(request[i]) + ' ]')
             print('\n[ %sMETHOD%s : %s ]'%(Y,C,method) + msg)
         else:
-            msg = ''
+            msg=''
             for i in request:
                 msg += str('\n[ ' + R + str(i.upper()) + C + ' : ' + str(request[i]) + ' ]')
             print('\n[ %sMETHOD%s : %s ]'%(Y,C,method) + msg)
