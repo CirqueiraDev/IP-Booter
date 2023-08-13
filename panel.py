@@ -1,9 +1,9 @@
 from methods.ddospw import attack_DNS_NTP_TCPMB
+from lib.textColor import textGen, text2Gen
 from methods.iostresser import ioStresser
+from lib.credits import scriptCredits
 from os import name, system
 from time import sleep
-from lib.textColor import textGen, text2Gen
-from lib.credits import scriptCredits
 import json
 import os
 
