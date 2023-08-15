@@ -41,7 +41,7 @@ def run(target, proxies):
                 proxies = remove_by_value(proxies, proxy)
         except requests.RequestException as e:
             #print("Request Exception:", e)
-            
+            proxies = remove_by_value(proxies, proxy)
 
 def thread(target, proxies):
     while True:
