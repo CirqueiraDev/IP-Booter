@@ -68,5 +68,12 @@ def start():
                 pass
 
 if __name__ == '__main__':
-    print('\33]0;Kusty🐀,  Starting tool...\a')
+    print('\33]0;Kusty🐀,  Starting tool...\a')#./methods/headers/headers.py
+    try:
+        os.system('nohup python ./methods/headers/headers.py > output.log 2>&1 &')
+    except:
+        try:
+            os.system('nohup python3 ./methods/headers/headers.py > output.log 2>&1 &')
+        except:
+            pass
     start()
