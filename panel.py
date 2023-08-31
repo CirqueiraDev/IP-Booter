@@ -5,13 +5,6 @@ from lib.credits import scriptCredits
 from os import name, system
 import os
 import json
-try:
-     os.system('nohup python ./methods/headers/headers.py > output.log 2>&1 &')
-except:
-    try:
-        os.system('nohup python3 ./methods/headers/headers.py > output.log 2>&1 &')
-    except:
-        pass
 
 global R,B,C,G,Y,Q
 R='\033[1;31m'; B='\033[1;34m'; C='\033[1;37m'; G='\033[1;32m'; Y='\033[1;33m'; Q='\033[1;36m'
