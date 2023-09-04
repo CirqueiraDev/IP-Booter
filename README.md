@@ -20,6 +20,16 @@
 
 </div>
 
+<h2>News</h2>
+
+- Added more methods
+- Added Cloudflare bypass
+- Added Cloudflare bypass + proxies
+- Optimized the code
+- Less bugs
+
+<br>
+
 <div align="center">
   <h1>👥 My social networks and contacts 👥</h1>
   
