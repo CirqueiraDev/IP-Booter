@@ -7,9 +7,10 @@ R='\033[1;31m'; B='\033[1;34m'; C='\033[1;37m'; G='\033[1;32m'; Y='\033[1;33m'; 
 syst = {'nt':'python panel.py','posix':'python3 panel.py'}[os.name]
 inst = {'nt':'pip install fake_useragent',
         'posix':'pip install requests',
-
         'nt2':'pip3 install fake_useragent',
-        'posix2':'pip3 install requests'}[os.name]
+        'posix2':'pip3 install requests',
+        'nt3': 'pip install cloudscraper',
+        'nt4': 'pip3 install cloudscraper'}[os.name]
 
 def exec(clean) -> None:
 	return os.system(clean)
@@ -68,5 +69,5 @@ def start():
                 pass
 
 if __name__ == '__main__':
-    print('\33]0;Kusty🐀,  Starting tool...\a')
+    print('\33]0;Kusty🐀,  Starting tool...\a')#./methods/headers/headers.py
     start()
