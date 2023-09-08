@@ -5,19 +5,24 @@ global R,B,C,G,Y,Q
 R='\033[1;31m'; B='\033[1;34m'; C='\033[1;37m'; G='\033[1;32m'; Y='\033[1;33m'; Q='\033[1;36m'
 
 syst = {'nt':'python panel.py','posix':'python3 panel.py'}[os.name]
-inst = {'nt':'pip install fake_useragent',
-        'posix':'pip install requests',
-        'nt2':'pip3 install fake_useragent',
-        'posix2':'pip3 install requests',
-        'nt3': 'pip install cloudscraper',
-        'nt4': 'pip3 install cloudscraper'}[os.name]
+
+def install():
+    try:
+        import requests
+        import cloudscraper
+        import fake_useragent
+    except:
+        try:
+            os.system('pip install -r requrements.txt')
+        except:
+            print('%s[ %s!%s ] Manually install the module(s).'%(C,R,C));exit()
 
 def exec(clean) -> None:
 	return os.system(clean)
 
 def checkInternet():
     import requests
-    
+
     #print('\n[%s-%s] Checking your internet connection!\n'%(Y,C))
     time.sleep(0.5)
     try:
@@ -32,8 +37,7 @@ def checkInternet():
 
 def start():
     try:
-        import fake_useragent
-        import requests
+        install()
 
         print('\n[%s!%s] Starting the tool...\n'%(Y,C))
 
@@ -52,7 +56,7 @@ def start():
 
         time.sleep(2)
 
-        exec(inst)
+        install()
 
         print('\n[%s*%s] Installed dependencies!\n'%(G,C))
 
@@ -69,5 +73,5 @@ def start():
                 pass
 
 if __name__ == '__main__':
-    print('\33]0;Kusty🐀,  Starting tool...\a')#./methods/headers/headers.py
+    print('\33]0;Kusty🐀,  Starting tool...\a')
     start()
