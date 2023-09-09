@@ -18,8 +18,6 @@
 
   <img height="500px" width="950px" src="https://github.com/CirqueiraDev/IP-Booter/assets/118860604/60e3ac95-a003-4338-bfa2-12566ca8c179" />
 
-  <img height="620px" width="820px" src="https://github.com/CirqueiraDev/IP-Booter/assets/118860604/2e96932e-b186-40e6-b063-173512f0264a" />
-
 </div>
 
 <h2>News</h2>
