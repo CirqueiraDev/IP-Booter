@@ -20,7 +20,7 @@ banner = '''
 logo = textGen(banner)
 
 def attack_DNS_NTP_TCPMB():
-    ip = input('\33]0;Kusty🐀,  DDoSer!💣\a'+'%s\n%sWARNING%s : %sThis method has been updated%s\n\n%sIPv4 address%s: '%(logo,R,C,Y,C,B,C))
+    ip = input('\33]0;Kusty🐀,  DDoSer!💣\a'+'%s\n%sWARNING%s : %sSorry but this method is under maintenance...%s\n\n%sIPv4 address%s: '%(logo,R,C,Y,C,B,C))
     port = int(input('%sPort%s: '%(B,C)))
     time = int(input('%sTime%s: '%(B,C)))
 
