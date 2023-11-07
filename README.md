@@ -39,5 +39,3 @@
 </div>
 
 - 💻 My discord: **cirqueira**
-
-- 📫 My contact: **leonardoschiffner88@gmail.com**
