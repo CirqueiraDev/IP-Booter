@@ -112,9 +112,10 @@ def ioStresser():
             pass
     
     elif attack_type == 2:
-        print("\n[%s-%s] ATTACK BYPASS"%(Y,C))
+        print("\n[%s-%s] CF BYPASS"%(Y,C))
 
     elif attack_type == 3:
+        print("\n[%s-%s] CF BYPASS + PROXY"%(Y,C))
         cfbp = 1
         try:
             proxyscrape_http = requests.get('https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&ssl=all&anonymity=all')
