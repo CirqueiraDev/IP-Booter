@@ -4,7 +4,7 @@
   WARNING:  Stress attacks pose a significant threat to the stability and security of online networks. Understanding its functioning is fundamental     to implement protective measures and promote a responsible use of technology.
   <br>
 
-  <img height="400px" width="600px" alt="html5" src="https://github.com/CirqueiraDev/IP-Booter/assets/118860604/1d72f864-51b9-425b-a61a-f700029f77d3" />
+  <img src="https://github.com/CirqueiraDev/IP-Booter/assets/118860604/1d72f864-51b9-425b-a61a-f700029f77d3" />
 
   <h1>💣 Methods 💣</h1>
   <h3>DNS + NTP + TCP Reflection</h3>
